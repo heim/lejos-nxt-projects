@@ -1,10 +1,10 @@
-## Installasjonsveileding for IT-hipstere
+## Installation for IT-hipsters
 
    
     $ cd lib && ./install.sh
   
   
- skru mindstorms i firmware-update modus (hold inn reset-knapp i 4 sek)
+ put the nxt-brick in firmware-update mode and run the following commands
   
 
     $ ./flash_firmware.sh    
@@ -12,13 +12,5 @@
 
 
 
-## Installasjonsveileding for de som trenger GUI
-
-- start eclipse
-- følg denne instruksjonen for å installere leJOS-plugin.
-http://lejos.sourceforge.net/nxt/nxj/tutorial/Preliminaries/UsingEclipse.htm
-
-## Mer info
- - Det ligger mye bra eksempler i lib/leJOS_NXJ/samples.zip
- - Tutorials på lejos.sourceforge.net
-
+## More info.
+Separate clean.sh/compile.sh/upload.sh-scripts in DrivingRobot projects.
